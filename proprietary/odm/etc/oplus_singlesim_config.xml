@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<single_sim_config_list>
+     <project name="Larry">
+        <projectList count="1">
+            <project>22872</project>
+        </projectList>
+        <operatorList count="1">
+            <operator>10100011</operator> <!-- US -->
+        </operatorList>
+    </project>
+
+</single_sim_config_list>

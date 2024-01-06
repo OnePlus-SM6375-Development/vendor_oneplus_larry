@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<filter-conf>
+    <version>20230515</version>
+    <toggle>1</toggle>
+    <features>
+        <feature name="hecate" enable="1"/>
+        <feature name="BindCore" enable="1">
+            <!-- big core index, start from 0 -->
+            <bigcore_id>4</bigcore_id>
+            <bigcore_id>5</bigcore_id>
+            <bigcore_id>6</bigcore_id>
+            <bigcore_id>7</bigcore_id>
+        </feature>
+        <feature name="ovfr" enable="1">
+            <application name="com.google.android.youtube">
+                <scene type="Application">
+                    <action>
+                       <minFPS>30</minFPS>
+                       <maxFPS>60</maxFPS>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.tencent.qqlive">
+                <scene type="Application">
+                    <action>
+                       <minFPS>30</minFPS>
+                       <maxFPS>60</maxFPS>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.qiyi.video">
+                <scene type="Application">
+                    <action>
+                       <minFPS>30</minFPS>
+                       <maxFPS>60</maxFPS>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.heytap.yoli">
+                <scene type="Application">
+                    <action>
+                       <minFPS>30</minFPS>
+                       <maxFPS>60</maxFPS>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.youku.phone">
+                <scene type="Application">
+                    <action>
+                       <minFPS>30</minFPS>
+                       <maxFPS>60</maxFPS>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.hunantv.imgo.activity">
+                <scene type="Application">
+                    <action>
+                       <minFPS>30</minFPS>
+                       <maxFPS>60</maxFPS>
+                    </action>
+                </scene>
+            </application>
+            <application name="tv.danmaku.bili">
+                <scene type="Application">
+                    <action>
+                       <minFPS>30</minFPS>
+                       <maxFPS>60</maxFPS>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.tencent.tvoem">
+                <scene type="Application">
+                    <action>
+                       <minFPS>30</minFPS>
+                       <maxFPS>60</maxFPS>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.sohu.sohuvideo">
+                <scene type="Application">
+                    <action>
+                       <minFPS>30</minFPS>
+                       <maxFPS>60</maxFPS>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.tudou.android">
+                <scene type="Application">
+                    <action>
+                       <minFPS>30</minFPS>
+                       <maxFPS>60</maxFPS>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.ss.android.article.video">
+                <scene type="Application">
+                    <action>
+                        <minFPS>30</minFPS>
+                        <maxFPS>60</maxFPS>
+                    </action>
+                </scene>
+            </application>
+        </feature>
+        <feature name="OplusDEE" enable="1">
+            <application name="com.tencent.tmgp.pubgmhd">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.tencent.tmgp.sgame">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.tencent.mobileqq">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.tencent.mm">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.tencent.ig">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.tencent.tmgp.cod">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.tencent.KiHan">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.tencent.jkchess">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.tencent.tmgp.cf">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.tencent.tmgp.speedmobile">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.tencent.mf.uam">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.tencent.tmgp.NBA">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.tencent.lolm">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.jifen.qukan">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.ss.android.ugc.aweme.lite">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.ss.android.ugc.live">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.ss.android.ugc.aweme">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.kuaishou.nebula">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.baidu.BaiduMap">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.ss.android.article.news">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.ss.android.article.lite">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.ss.android.article.video">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.smile.gifmaker">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.autonavi.minimap">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.whatsapp">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.facebook.katana">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.funnypuri.client">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.mobile.legends">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.mobile.legends:UnityKillsMe">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.wepie.snake.nearme.gamecenter">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.netease.sky.nearme.gamecenter">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.netease.g67.nearme.gamecenter">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.netease.g104.nearme.gamecenter">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.sy.dldlhsdj.nearme.gamecenter">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.netease.aceracer.nearme.gamecenter">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.netease.mrzh.nearme.gamecenter">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.miHoYo.bh3.nearme.gamecenter">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.miHoYo.Yuanshen">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.instagram.android">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.google.android.youtube">
+                <scene type="Application">
+                    <action>
+                        <mode>CABC</mode>
+                        <cabc_enter>3</cabc_enter>
+                        <cabc_exit>1</cabc_exit>
+                    </action>
+                </scene>
+            </application>
+        </feature>
+        <feature name="OplusDEE" enable="1">
+            <application name="com.coloros.video">
+                <scene type="Application">
+                    <action>
+                        <mode>SVI</mode>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.oplus.camera">
+                <scene type="Application">
+                    <action>
+                        <mode>SVI</mode>
+                    </action>
+                </scene>
+            </application>
+            <application name="com.oneplus.gallery">
+                <scene type="Application">
+                    <action>
+                        <mode>SVI</mode>
+                    </action>
+                </scene>
+            </application>
+        </feature>
+    </features>
+</filter-conf>
